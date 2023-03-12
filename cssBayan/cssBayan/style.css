@@ -5,7 +5,9 @@
 
 .accordion-title {
     font-size: 2rem;
-
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .accordion-item_img {
@@ -26,6 +28,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .accordion-content {
@@ -56,11 +62,17 @@ input[type=radio]:checked~.fa-sharp {
 @media(max-width: 1025px) {
     .accordion-title {
         font-size: 1.7rem;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Rubik', sans-serif;
     }
 }
 
 @media (max-width: 320px) {
     .accordion-title {
         font-size: 1.5rem;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Rubik', sans-serif;
     }
 }
