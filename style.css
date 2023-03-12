@@ -52,3 +52,15 @@ input[type=radio]:checked~.accordion-content>.accordion-item_img {
      transform: rotate(180deg);
      transition: 1s;
  }
+
+ @media(max-width: 1025px) {
+    .accordion-title {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .accordion-title {
+        font-size: 1.5rem;
+    }
+}
